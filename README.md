@@ -7,7 +7,7 @@ The database captures relationships between **performers, visitors, staff member
 
 ## 🧩 Entity–Relationship Diagram
 
-![Atlas Weekend ERD](diagram.jpeg)
+![Atlas Weekend ERD](diagram.jpg)
 
 ---
 
@@ -128,10 +128,3 @@ The system keeps track of all relationships between **performers, staff members,
 - List all visitors who bought a backstage pass to *Rihanna*
 - Identify staff members who worked with every performer
 - Display group tickets with more than two visitors
-
----
-
-## 🧾 Author
-**Yelyzaveta Kononenko**  
-Course: Database Systems / SQL for Data Management  
-Year: 2025
