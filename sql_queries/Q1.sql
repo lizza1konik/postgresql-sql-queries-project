@@ -1,5 +1,6 @@
--- Show performers name and surname, that have a concert on the 15th stage
-select p.name, p.surname from person p
-join performer per on p.id_person = per.id_person
-join performance perform on perform.id_person = per.id_person
-where perform.id_stage=15;
+-- Show performers' names and surnames who have a concert on stage 15
+SELECT p.name, p.surname
+FROM person p
+JOIN performer per ON p.id_person = per.id_person
+JOIN performance perf ON perf.id_person = per.id_person
+WHERE perf.id_stage = 15;

@@ -1,7 +1,8 @@
 -- Show visitors' names and surnames who bought a backstage pass to both Britney Spears and Rihanna
 SELECT p.name, p.surname
 FROM person p
-JOIN (
+JOIN
+(
     SELECT v.id_person
     FROM visitor v
     JOIN backstage_pass bp  ON v.id_person = bp.id_person

@@ -7,7 +7,8 @@ SELECT
     v.email,
     v.contact_number,
     visitor_counts.group_ticket
-FROM (
+FROM
+(
          SELECT id_ticket, COUNT(id_person) AS group_ticket
          FROM visitor
          GROUP BY id_ticket

@@ -8,7 +8,8 @@ WHERE LOWER(p.name) = 'alysa';
 
 UPDATE staff_member
 SET salary = salary + 500
-WHERE id_person IN (
+WHERE id_person IN
+(
     SELECT sm.id_person
     FROM person p
     JOIN staff_member sm ON p.id_person = sm.id_person
